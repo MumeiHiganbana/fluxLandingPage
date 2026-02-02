@@ -1,0 +1,7 @@
+{
+  "name": "WQMS by Flux - Water Quality Monitoring System",
+  "description": "A comprehensive landing page for the WQMS by Flux water quality monitoring system, featuring real-time monitoring solutions, technical specifications for sensors, and professional support documentation.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

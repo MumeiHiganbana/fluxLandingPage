@@ -23,15 +23,15 @@ const App: React.FC = () => {
 
         <Partners />
         
-        <section id="challenges" className="py-20 bg-slate-50">
+        <section id="challenges" className="bg-slate-50">
           <Challenges />
         </section>
 
-        <section id="importance" className="py-20">
+        <section id="importance" className="py-10">
           <Importance />
         </section>
 
-        <section id="how-it-works" className="py-20 bg-slate-900 text-white">
+        <section id="how-it-works" className="py-20 bg-gradient-to-b from-white via-slate-50 to-white">
           <HowItWorks />
         </section>
 

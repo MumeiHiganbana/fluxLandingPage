@@ -14,7 +14,11 @@ const Sensors: React.FC = () => {
       id: "WQMS-FWMS-01",
       name: "PH Sensor",
       specs: [
-        "Temperature, PH, EC, TDS, DO, Salinity, NH4+"
+        "Temperature",
+        "DO",
+        "Salinity",
+        "NH4+",
+        "etc"
       ],
       image: "https://is3.cloudhost.id/blog.cems.id/2026/01/RK500-09.jpg",
       colors: { 
@@ -24,9 +28,12 @@ const Sensors: React.FC = () => {
     },
     {
       id: "WQMS-DWEC-01",
-      name: "ORP Sensor Probe",
+      name: "Salinity Sensor Probe",
       specs: [
-        "Salinity"
+        "Frequency Conversion Method",
+        "Range 0–2000μs/cm up to 300ms/cm",
+        "Accuracy ±1%FS",
+        "Resolution 0.01mS/cm"
       ],
       image: "https://is3.cloudhost.id/blog.cems.id/2026/01/RK500-13C.png",
       colors: { 
@@ -36,9 +43,12 @@ const Sensors: React.FC = () => {
     },
     {
       id: "WQMS-DWPH-01",
-      name: "ORP Sensor Probe",
+      name: "PH Sensor Probe",
       specs: [
-        "PH"
+        "Electrochemistry Method",
+        "Range 0-14 pH",
+        "Accuracy ±0.05PH",
+        "Resolution 0.01PH"
       ],
       image: "https://is3.cloudhost.id/blog.cems.id/2026/01/RK500-12.png",
       colors: { 
@@ -48,12 +58,12 @@ const Sensors: React.FC = () => {
     },
     {
       id: "WQMS-FWCOD-01",
-      name: "Turbidity Sensor",
+      name: "COD & Turbidity Sensor",
       specs: [
-        "Range: 0-4000NTU",
-        "SS 316L Body",
-        "Wiper Clean",
-        "Out: RS485"
+        "Dual Wavelength Ultraviolet Method",
+        "COD= 0-370mg / Turbidity= 0-100 NTU",
+        "Accuracy ± 5% F. S",
+        "Resolution COD= 0.1mg/l / Turbidity=0.1 NTU"
       ],
       image: "https://is3.cloudhost.id/blog.cems.id/2026/01/RK500-20.png",
       colors: { 

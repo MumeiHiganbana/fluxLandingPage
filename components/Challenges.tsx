@@ -120,7 +120,7 @@ const Challenges: React.FC = () => {
   };
 
   return (
-    <div className="py-24 bg-slate-50 select-none overflow-hidden relative">
+    <div className="py-16 bg-slate-50 select-none overflow-hidden relative">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           

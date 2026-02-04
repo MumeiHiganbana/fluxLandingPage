@@ -83,7 +83,7 @@ const Partners: React.FC = () => {
   const group3 = partnerNames.slice(14, 21);
 
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-8">
       <div className="container mx-auto px-6 mb-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
